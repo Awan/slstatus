@@ -13,7 +13,7 @@ static const char unknown_str[] = "n/a";
 /* output formats */
 static const struct arg args[] = {
 	/* function, format, argument */
-	{ num_files, "%s    ", "/home/abdullah/.mail/abdullah/INBOX/new" },
+	{ run_command, "%s    ", "cat /tmp/newmails/newmails" },
   { cpu_perc,     "%s     ", "NULL" },
   { ram_used,   "%s    ", "NULL" },
   { temp,   "%sC     ",  "/sys/class/thermal/thermal_zone0/temp" },
